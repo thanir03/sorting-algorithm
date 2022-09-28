@@ -120,7 +120,7 @@ const addEventListeners = function () {
 
   sortingSpeedInput.addEventListener("input", function () {
     speed = this.valueAsNumber;
-    time = 3 - speed;
+    time = (3 - speed) / 2;
   });
 
   algorithmBtnContainer.addEventListener("click", getAlgorithm);
