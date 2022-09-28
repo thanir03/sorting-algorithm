@@ -1,6 +1,5 @@
 # sorting-algorithm-visualizer
 
-***
 Web app that showcases the important sorting algorithm that we all learn in Computer Science.
 
 Consist Of : 
