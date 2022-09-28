@@ -5,9 +5,13 @@ Web app that showcases the important sorting algorithm that we all learn in Comp
 Consist Of : 
 
 Bubble Sort    O(n^2) 
+
 Insertion Sort O(n^2)
+
 Selection Sort O(n^2)
+
 Quick Sort     O(n log n)
+
 Merge Sort     O(n log n)
 
 
