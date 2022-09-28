@@ -15,3 +15,6 @@ Things left to do :
 1. Refactor code into modern vanilla JS 
 2. Bundle the files with webpack or parcel
 3. Make the website responsive for all type of devices
+
+
+Inspired by : Clement
