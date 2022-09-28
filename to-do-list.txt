@@ -1,0 +1,26 @@
+Web app
+    Navbar
+    Main section
+
+
+Navbar 
+    Generate new array
+    Change array size 
+    Select timer speed
+    Algorithm selection
+    Run the algorithm
+
+Main section 
+    Display the bar chart
+    Asynchronously sort the bar chart with the selected algorithm
+    Move the bars in order of the algorithm    
++   Pause / Resume / Forward /Backward
++   Time / Space Complexity of algorithms / Explanation
+
+Colors 
+    Purple : Elements that are sorted
+    Green  : Fully sorted
+    Yellow : Comparison between two Elements
+    Blur : Unsorted
+
+

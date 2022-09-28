@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Sorting Algorithms</title>
+    <script src="/js/app.js" defer></script>
+    <script src="/js/bubbleSort.js" defer></script>
+    <script src="/js/selectionSort.js" defer></script>
+    <script src="/js/insertionSort.js" defer></script>
+    <script src="/js/mergeSort.js" defer></script>
+    <script src="/js/quickSort.js" defer></script>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="button" id="generate-new-array">Generate New Array</div>
+            <div class="user-select">
+                <div>
+                    <label for="array-size">Array Size</label>
+                    <input type="range" name="array-size" id="array-size" min="10" max="100" range="5" value="50">
+                </div>
+                <div>
+                    <label for="sorting-speed">Sorting speed</label>
+                    <input type="range" name="array-size" id="sorting-speed" min="1" max="3" range="1">
+                </div>
+            </div>
+            <div class="algorithm">
+                <div id="bubble" class="button sorting">Bubble Sort</div>
+                <div id="selection" class="button sorting">Selection Sort</div>
+                <div id="insertion" class="button sorting">Insertion Sort</div>
+                <div id="merge" class="button sorting">Merge Sort</div>
+                <div id="quick" class="button sorting">Quick Sort</div>
+            </div>
+            <div id="sort" class="hidden button">SORT !!</div>
+        </nav>
+        <main class="barchart"></main>
+    </div>
+</body>
+
+</html>

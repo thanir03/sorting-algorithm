@@ -1,0 +1,64 @@
+body {
+  overflow-y: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #f1faee;
+  font-family: "Roboto";
+  font-size: 15.9px;
+}
+
+nav {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0a1128;
+  color: white;
+}
+.user-select {
+  display: flex;
+  flex-direction: column;
+}
+.algorithm {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.button {
+  cursor: pointer;
+}
+.button:hover {
+  filter: brightness(0.8);
+}
+.current-algorithm {
+  color: #faa307;
+  font-weight: bolder;
+  transition: color 200ms;
+}
+.immutable {
+  color: #bf0603;
+}
+
+.hidden {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.barchart {
+  width: 1215px;
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  gap:5px;
+  padding: 5px;
+}
+.bar{
+  display:inline-block;
+  font-weight: bolder;
+  text-align:  center;
+}
+
+footer{
+  color : #ffd60a;
+  color: #a663cc
+}
